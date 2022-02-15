@@ -1,0 +1,287 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*start navbar*/
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+   padding: 0px 20px;
+}
+a{
+    text-decoration: none;
+}
+span{
+   color: #f7c08a;
+}
+.container h1 a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 20px;
+   }
+.container ul li {
+     float: left;
+    
+      }
+.container ul li a{
+      color: white;
+      padding:35px;
+      text-align: center;
+      
+     
+    }
+.navbar{
+    
+    background: black;
+    width: 100%;
+    height: 70px;
+    
+}
+.container ul{
+    list-style: none;
+    float: right;
+    padding-top: 20px;
+    }
+    /*.container ul li a.active, */
+    .container ul li a:hover{
+        background-color: #444;
+        color: #f7c08a;
+    }
+   /*end navbar*/
+   /*start section using background*/
+   .background{
+    
+    background-image:url('https://i.pinimg.com/originals/47/12/38/47123806a8ac82f29b607933cf077cd9.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+   }
+   .background h1{
+    padding-top:350px;
+    color: white;
+    font-size: 70px;
+    line-height: 1.5em;
+   }
+   .background p{
+    color:white;
+    font-size: 30px;
+    font-family: "https://fonts.google.com/specimen/Roboto";
+   }
+   .btn-back{
+    background-color: #333;
+    padding:20px;
+    margin-top: 20px;
+   
+   }
+   .btn-back a{
+     color: white;
+   }
+   .background .btn-back:hover
+   {
+      background-color: #f7c08a;
+         
+    
+    }
+    .background .btn-back  a:hover {
+       color: black;
+    }
+     /*end section using background*/
+      /*start section using image*/
+     .img{
+      background-image: url('http://www.essexgc.com/shop/images/th_p.44.1-whitney1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+      width: 50%;
+      float: left;
+     }
+     .information{
+      background-color: black;
+      text-align: center;
+      color: white;
+      
+      height: 500px;
+     }
+     .information h1{
+      padding-top: 100px;
+     }
+      .information p{
+         margin: 15px;
+         padding-left: 30px;
+      }
+       .information button{
+         padding: 20px;
+       }
+        .information button:hover{
+         background-color: #f7c08a;
+        }
+         /*end section using image*/
+        .loc{
+         float:left;
+        }
+        .meal{
+         float: left;
+         background-color: #f7c08a;
+        }
+        .room{
+         float: right;
+        }
+        .box{
+         padding-top: 50px;
+         width: 33.3333%;
+         text-align: center;
+         height: 200px;
+        }
+        
+      footer{
+         overflow: hidden;
+         text-align: center;
+         padding: 15px;
+        
+         background-color: #333;
+         color: white;
+      }
+      /*start about page*/
+      /*start section with image and text*/
+      .txt-image .container {
+         width:auto;
+         height:auto;
+      }
+      .txt-image .container .text{
+         float:left;
+         width: 50%;
+       height: 100%;
+      
+      }
+      .txt-image .container .text h1{
+         font-size: 50px;
+         font-style: bold;
+      }
+      .txt-image .container .image{
+         float:right;
+         width: 50%;
+         height: 100%;
+          
+      }
+      .txt-image .container .image img{
+         border-radius: 70%;
+         overflow: hidden;
+         margin-left: 200px;
+      }
+      
+      /*  end section with image and text*/
+      /* <!--start testmonias-->*/
+      .test{
+         background-image: url('https://blog.stingray.com/sites/blog/files/2019-02/architecture-chair-contemporary-1001965.jpg');
+         background-repeat: no-repeat;
+         margin-top: 20px;
+         width: 100%;
+         height: 700px;
+      }
+      .test .container h1{
+         font-size: 50px;
+         font-style: bold;
+         text-align: center;
+         color:white;
+         margin: 50px;
+        padding-bottom: 30px;
+      }
+       .test .container .frs-test img,
+        .test .container .sec-test img{
+       /*  float: left;*/
+        border-radius: 50%;
+         width: 100px;
+         padding: 20px;
+         display: inline-block;
+       }
+       
+       .test .container .frs-test p,
+        .test .container .sec-test p{
+       /*  float:right;*/
+         color:black;
+         width: 60%;
+         display:inline-block;
+         padding-bottom: 55px;
+         
+       }
+      .test .container .frs-test,
+      .test .container .sec-test{
+          background-color: #f7c08a;
+       /*  padding: 70px ;*/
+         margin: 50px;
+         border-radius: 20px;
+         display: block;
+         
+      }
+     
+      
+      /* <!--end testmonias-->*/
+      
+      /*end about page*/
+      /*start contact page*/
+      .info{
+         padding-left: 70px;
+      }
+      .info h1{
+         font-size: 30px;
+          margin: 30px;
+      }
+      .info p{
+         margin: 30px;
+      }
+     form .name{
+      width: 30%;
+      height: 40px;
+       margin: 30px;
+     
+     }
+     form .pass{
+       width: 30%;
+      height: 40px;
+       margin: 30px;
+     }
+     form .mgs{
+        width: 30%;
+      height: 100px;
+      margin: 30px;
+     }
+     form .btn{
+      background-color: black;
+      color: white;
+     padding: 20px;
+     margin: 30px;
+     font-size: 20px;
+    
+     }
+     .osam {
+      height: 400px;
+      width: 100%;
+      background-color: black;
+      color: white;
+    
+     }
+     .osam .location{
+       float :left;
+      width: 33.3333%;
+      text-align: center;
+      margin-top: 100px;
+     }
+     .osam .call{
+      width: 33.3333%;
+      text-align: center;
+      float:left;
+      margin-top: 100px;
+     }
+     .osam .mail{
+      text-align: center;
+     float:right;
+     width: 33.3333%;
+     margin-top: 110px;
+
+     }
